@@ -1,0 +1,92 @@
+           NAKKA HEMANTH DATTA                                                  Research & Patents
+                  Engineering Physics | EP23B028                               Gesturize: Edge Sign Language Translation System
+             CGPA: 8.45     § GitHub     ï LinkedIn   ã Kaggle                Indian Patent: 202541022908 | CFI, IIT Madras        { Apr ’24 – Mar ’25
+ Education                                                                    • Developed a real-time sign-language recognition pipeline for Raspberry
+• Indian Institute of Technology Madras                      + Chennai, TN       Pi, transitioning from attention-based seq2seq to a few-shot Siamese
+ B. Tech - Engineering Physics                           { Jul ’23 – Jul ’27     network for low-resource inference.
+                                                                               • Extracted MediaPipe hand-landmark features with interpolation &
+• JNV, Pondicherry                                        + Pondicherry, PY
+                                                                                 synthetic gesture augmentation, & built an English-to-ISL grammar
+ Class XII (CBSE) | 95.80%                                          { 2023
+                                                                                 transformation pipeline (Stanford Parser, spaCy) to generate
+l Professional Experience                                                        synthetic training data.
+                                                                               • Led annotation of a 60+ volunteer-collected open-source ISL
+Wells Fargo                                               + Bangalore, India
+                                                                                 dataset at CFI, establishing a clean training corpus for downstream
+Tech Developer Intern | AI Systems & LLMOps             { May ’26 – Jul ’26
+                                                                                 recognition models.
+• Developed & benchmarked LLM-as-a-Judge evaluation pipelines for
+                                                                                Projects
+  hallucination, truthfulness, & response quality, using judge-vs-gold
+  calibration to quantify evaluator reliability.                               Foundational Model Adaptation Pipeline @                              §
+• Built trace-based observability across multi-step AI agent execution,        Under Prof. Sukhendu Das | CS6350, IIT Madras         { Jul ’25 – Dec ’25
+  analyzing latency, token consumption, & model input/output                   • Evaluated CLIP & DINOv2 for fine-grained classification across
+  behavior to diagnose performance & behavioral degradation.                     zero-shot, few-shot, & PEFT regimes.
+• Architected a PDF document extraction pipeline with PyMuPDF,                 • Implemented LoRA, BitFit, Prefix Tuning, updating only 0.7% of
+  automating document parsing, JSON-to-SQL schema normalization,                 parameters achieving 94.67% classification accuracy with DINOv2.
+  & structured-data reconciliation.                                            • Designed a two-stage adaptation strategy separating backbone
+• Built a containerized FastAPI backend for enterprise workflows,                feature extraction from classifier optimization for efficient model
+  integrating structured data processing with production APIs & scalable         experimentation & iteration.
+  service components.
+                                                                               Score-Based Generative Model Evaluation Framework @                   §
+CV. OMSAI INFORMASI TEKNOLOGI                          + Remote, Singapore     Under Prof. Sheetal Kalyani | EE5180, IIT Madras      { Jul ’25 – Dec ’25
+AI/ML Engineer (Contract)                               { Feb ’26 – May ’26
+                                                                               • Implemented DDPM, DDPM++, NCSN++ image-generation
+• Designed a multimodal Corrective RAG (CRAG) pipeline combining                 pipelines for CIFAR-10 across VP, VE, & Sub-VP SDE formulations
+  dense embeddings, BM25 retrieval, query rewriting, & reranking with            in PyTorch.
+  LangGraph & ChromaDB.                                                        • Conducted controlled ablations across 12 architectures & 200K
+• Developed a table-aware retrieval architecture using document-level            training steps, evaluating generated image quality using FID &
+  summaries, row-level embeddings, & raw-table injection, achieving              Inception Score.
+  100% table-query accuracy across 250+ enterprise documents.                  • Achieved FID 10.52 / IS 7.37 with VP-DDPM++ and FID 11.34
+• Applied semantic chunking & Ragas-based context precision/recall               / IS 7.03 with VE-NCSN++, identifying width-over-depth as a key
+  evaluation to identify & prune irrelevant retrievals, improving answer         architectural trade-off.
+  groundedness while reducing LLM inference latency.
+• Reduced prompt token consumption by 35% through retrieval-quality            Customer Analytics & Churn Prediction System                          §
+  optimization & context filtering, while building citation-level evaluation   Python | XGBoost | CatBoost | Optuna                 { Jan ’25 – May ’25
+  & visualization for retrieval debugging.                                     • Developed an end-to-end customer churn prediction pipeline,
+Ð Technical Skills                                                               benchmarking Logistic Regression, XGBoost, CatBoost, &
+                                                                                 LightGBM to achieve 86% accuracy & 0.84 F1-score.
+• Languages & Data: Python, C/C++, SQL, NumPy, pandas,                         • Engineered 60+ domain features & performed 100+ Optuna
+  MATLAB, Mathematica                                                            hyperparameter trials, improving model performance by 17% &
+• Machine Learning: PyTorch, TensorFlow, scikit-learn, Transformers,             reducing false positives by 23%.
+  XGBoost, CatBoost, LightGBM, Optuna, OpenCV
+                                                                               Time Series Forecasting – Data Size Impact Study                      §
+• ML Methods: Classification, Feature Engineering, Hyperparameter
+                                                                               Python | Scikit-learn | TensorFlow | KNN | SVR | LSTM { Jan ’25 – May ’25
+  Optimization, Parameter-Efficient Fine-Tuning, Generative Modeling
+• AI / Retrieval: RAG/CRAG, FAISS, ChromaDB, LangGraph, PEFT                   • Compared KNN, SVR, & LSTM for AAPL stock-price forecasting
+  (LoRA/BitFit), Ragas, LLM-as-a-Judge                                           across 100–1,174 training samples; found LSTM dominance beyond
+• Tools: FastAPI, Docker, Kubernetes, Redis, Git                                 ∼1,000 samples, reaching 0.00042 MSE / 0.01603 MAE versus
+[ Relevant Coursework                                                            KNN’s 0.00052 / 0.01768.
+                                                                               • Engineered a leakage-aware time-series pipeline with splitting,
+• Intro to Machine Learning              • Data Structures & Algorithms          MinMax scaling,10-day sliding windows for next-day price prediction.
+• Introduction to Deep Learning          • Database Management Systems
+                                                                               Multimodal Vision-Language Adaptor (“Minivision”)                     §
+• Natural Language Processing            • Computational Physics
+                                                                               PyTorch | Transformers | 250M-parameter model        { Jan ’26 – May ’26
+• Computer Vision                        • Digital Signal Processing
+• Probability & Statistics               • Linear Algebra                      • Developed a vision-language adaptor aligning image embeddings with
+ Hackathons                                                                     a text LLM, training a 250M-parameter multimodal model on 25K+
+                                                                                 curated image-text pairs, with a checkpoint benchmarking framework
+2nd Prize, Mando AI Tool Dev Hackathon 2025                              §       for real-time visual QA evaluation.
+LangGraph | Claude LLM | FAISS | Azure                 { May ’25 – Jun ’25
+                                                                               Distributed High-Performance N-Body Simulation Engine                §
+• Engineered a full-stack document QA system supporting PDF, DOCX,
+                                                                               Under Prof. Yasir Iqbal | PH5730, IIT Madras         { Jan ’26 – May ’26
+  & CSV, using LangGraph, VoyageAI embeddings, Claude LLM, & FAISS
+                                                                               • Built a scalable N-body simulation pipeline using NumPy
+  hybrid search across 2,000+ page documents.
+                                                                                 vectorization, Barnes-Hut, multiprocessing, & distributed
+Round 3 Finalist, Appian AIgnite Hackathon 2025                          §       execution, achieving ∼ 78× speedup over the naive baseline.
+CLIP | Gemini API | FAISS | Azure                       { Mar ’25 – Apr ’25    • Parallelized Barnes-Hut traversal across 8 workers for an additional
+• Built a multimodal product discovery platform using CLIP+FAISS                 ∼ 3× speedup & implemented checkpointed coordinator-worker
+  hybrid search across 14K+ products, with a Gemini-powered AI                   execution with < 0.1% overhead.
+  browser extension for automated e-commerce checkout.                         / Scholastic Achievements
+© Mentorship
+                                                                               • CBSE Certificate of Merit for top 0.1% rank (100/100) in CS, Class
+Avanti Fellows & EE Intern Buddy Program                                         XII Boards 2023 & Reliance UG Scholarship.
+Student Mentor                                     { Sep ’23 – Aug ’26         • AIR 5476 in JEE Advanced 2023 (2.5L+ candidates) & Top 1.42%
+• Mentored underprivileged JEE aspirants by giving back as an Avanti             in JEE Mains 2023.
+  Fellows alumnus & guided junior EE students as Mentor.                       ⋆ Extra-Curriculars
+                                                                               • NSO Volleyball & state/national chess player & EEA frisbee champions
+

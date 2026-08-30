@@ -1,0 +1,209 @@
+NAKKA HEMANTH DATTA
+
+ Projects
+
+Engineering Physics | EP23B028
+§ GitHub
+
+Agentic Chat Application – “Hemnn AI (AI Twin)” 
+
+ï LinkedIn
+
+LangGraph | MCP | FastAPI | React/Next.js | Azure
+
+ Education
+• Indian Institute of Technology Madras
+B. Tech - Engineering Physics
+• JNV, Pondicherry
+Class XII (CBSE) | 95.80%
+
++ Chennai, TN
+{ Jul ’23 – Jul ’27
++ Pondicherry, PY
+{ 2023
+
+l Professional Experience
+Wells Fargo
++ Bangalore, India
+Software Engineering Intern | Full Stack & AI Systems { May ’26 - Jul ’26
+• Deployed a containerized 3-service trade-processing stack
+(FastAPI, React, Redis) on Kubernetes with HPA autoscaling
+& liveness/readiness probes, raising throughput to 10,000+ trade
+confirmations/hour & replacing manual review workflows.
+• Architected the underlying extraction engine using Strategy Design
+Patterns, PyMuPDF, and Redis caching, automating JSON-to-SQL
+schema normalization & sub-second trade database reconciliation.
+• Developed a real-time React review workbench featuring SSE-based
+status streaming, split-screen verification, embedded PDF inspection,
+& pagination for rapid exception handling.
+• Developed a trade management system using Angular 16, ASP.NET
+Core 8, Dapper, & SQL Server, optimizing data access via
+batched SOR retrieval, in-memory caching, & transactional status
+synchronization.
+• Built & tested LLM-as-a-Judge agent evaluation workflows
+(hallucination, truthfulness, response quality) with trace-based
+observability, using judge-vs-gold calibration to validate scoring
+reliability for AI applications.
+CV. OMSAI INFORMASI TEKNOLOGI
++ Remote, Singapore
+Forward Deployed Engineer (Contract)
+{ Feb ’26 – May ’26
+• Partnered directly with an Oman-based enterprise client to build,
+iterate, & deploy a production AI document intelligence system on a
+cloud VM, driving end-to-end solution delivery.
+• Engineered a multimodal Corrective RAG (CRAG) pipeline using
+LangGraph, OpenAI embeddings & LLMs, ChromaDB (vector
++ BM25), semantic chunking, & a reranking engine with
+query-rewrite/re-retrieval on low-confidence hits, achieving 100% table
+query accuracy across a 250+ enterprise document benchmark.
+• Developed a React frontend for source document rendering with live
+citation highlighting, utilizing Ragas framework context metrics to
+trim prompt token usage by 35% & lower LLM inference latency.
+
+Ð Technical Skills
+• Languages: Python, C/C++, SQL, Matlab, Mathematica
+• Frameworks & Libraries:
+PyTorch, TensorFlow, scikit-learn,
+LangChain, LangGraph, Ragas, FAISS, ChromaDB, Unsloth, FastAPI,
+React, Angular 16, ASP.NET Core, Dapper, SQL Server, Docker,
+Kubernetes, Redis, Celery, Streamlit, pandas, Git
+• Core Skills:
+DSA, Operating Systems, Distributed Systems,
+Concurrency & Multithreading, SQL Indexing & Query Optimization,
+Machine Learning, Deep Learning, NLP, Computer Vision, RAG, LLM
+Fine-Tuning (PEFT/LoRA), LLMOps & Observability
+
+[ Relevant Coursework
+• Data Structures & Algorithms
+• Database Management Systems
+• Probability & Statistics
+• Intro to Machine Learning
+• Introduction to Deep Learning
+
+² Position of Responsibility
+
+• Computer Organisation
+• Modern App Development
+• Natural Language Processing
+• Computer Vision
+• Computational Physics
+
+CFI: Sahaay Social Innovation Club
+Project Member (Gesturize)
+{ Apr ’24 – Mar ’25
+• Co-invented an Indian Sign Language (ISL) translation system on low
+edge devices using Siamese Networks, MediaPipe, & interpolation
+(Patent App. No: 202541022908), leading 60+ NSS IIT Madras
+volunteers for open-source dataset contribution.
+
+© Mentorship
+Avanti Fellows & EE Intern Buddy Program
+Student Mentor
+{ Sep ’23 – Aug ’26
+• Mentored underprivileged JEE aspirants by giving back as an Avanti
+Fellows alumnus & guided junior EE students as Mentor.
+
+§
+
+{ Jan ’26 – Present
+
+• Built an agentic AI portfolio using LangGraph with intent routing,
+conversational memory, RAG, & tool calling for grounded access to
+personal projects, experience, skills, & technical background.
+• Engineered a dynamic multi-agent orchestration layer routing
+requests to specialized sub-agents, supporting creation of task-specific
+agents & enabling plug & play capabilities through MCP servers.
+• Architected a privacy-aware backend deployed on Azure with a
+Vercel-hosted frontend, featuring isolated sessions, thread-scoped
+state, bounded execution.
+Colab Sync Control – Open-Source Developer Tool 
+VS Code Extension | Node.js | WebSockets | Colab API
+
+§
+
+{ Jul ’26 – Present
+
+• Built a VS Code extension enabling bi-directional synchronization
+between local workspaces and remote Google Colab runtimes, with
+automatic background syncing & conflict monitoring.
+• Architected a local daemon–based control plane for workspace
+linking, remote session lifecycle management, & interactive shell access,
+integrating cloud compute into the native VS Code workflow.
+• Developed a real-time dashboard for CPU/RAM/GPU compute-unit
+tracking, supporting T4/L4/A100 GPU & TPU runtimes.
+Distributed High-Performance N-Body Simulation Engine 
+Under Prof. Yasir Iqbal | PH5730
+
+§
+
+{ Jan ’26 – May ’26
+
+• Engineered a gravitational N-body simulator, layering naive O(N 2 ) →
+vectorized NumPy → Barnes-Hut (O(N log N )) → multiprocessing →
+socket-based distributed execution (rel. error < 10−12 ).
+• Vectorized force kernel (NumPy) for ∼ 78× speedup over naive loop
+(N = 256) & parallelized Barnes-Hut tree traversal across 8 workers for
+∼ 3.0× further speedup (N = 8192).
+• Built a coordinator/worker raw-byte protocol (< 0.1% overhead) with
+fail-stop fault tolerance (checkpoints) & benchmarked 6 scaling
+experiments across N , speedup, & opening angle θ tradeoffs.
+Foundational Model Adaptation Pipeline @
+Under Prof. Sukhendu Das | CS6350
+
+§
+{ Jul ’25 – Dec ’25
+
+• Built a modular model adaptation pipeline for CLIP & DINOv2
+supporting zero-shot, few-shot, & PEFT workflows.
+• Implemented LoRA, BitFit, & Prefix Tuning & optimized training to
+update only 0.7% of model parameters, achieving 94.67% accuracy
+with DINOv2.
+• Designed a two-stage training architecture separating feature
+extraction & classifier optimization, enabling efficient experimentation
+across model & adaptation configurations.
+Score-Based Generative Model Evaluation Framework @
+Under Prof. Sheetal Kalyani | EE5180
+
+§
+
+{ Jul ’25 – Dec ’25
+
+• Implemented DDPM, DDPM++, & NCSN++ training & sampling
+pipelines across VP, VE, & Sub-VP SDE formulations using PyTorch.
+• Built a configurable model evaluation pipeline supporting 12
+architectures, hyperparameter sweeps, class-specific training, &
+large-scale training runs up to 200K steps.
+• Benchmarked model configurations using FID & Inception Score,
+achieving FID 10.52 & IS 7.37 with VP-DDPM++ & identifying
+architecture choices affecting training efficiency & generation quality.
+
+ Hackathons
+2nd Prize, Mando AI Tool Dev Hackathon 2025
+LangGraph | Claude LLM | FAISS | Azure
+
+§
+{ May ’25 – Jun ’25
+
+• Engineered a full-stack document QA system supporting PDF, DOCX,
+& CSV, using LangGraph, VoyageAI embeddings, Claude LLM, & FAISS
+hybrid search across 2,000+ page documents.
+Round 3 Finalist, Appian AIgnite Hackathon 2025
+CLIP | Gemini API | FAISS | Azure
+
+§
+{ Mar ’25 – Apr ’25
+
+• Built a multimodal product discovery platform using CLIP+FAISS
+hybrid search across 14K+ products, with a Gemini-powered AI
+browser extension for automated e-commerce checkout.
+
+/ Scholastic Achievements
+• CBSE Certificate of Merit for top 0.1% rank (100/100) in CS, Class
+XII Boards 2023 & selected for Reliance UG Scholarship
+• AIR 5476 in JEE Advanced 2023 (out of 2.5L+ candidates) & Top
+1.42% in JEE Mains 2023 out of 12L+ candidates
+
+⋆ Extra-Curriculars
+• NSO Volleyball & state/national chess player & EEA frisbee champions
+
+

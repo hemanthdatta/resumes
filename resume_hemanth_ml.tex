@@ -1,0 +1,406 @@
+\documentclass{resume}
+
+\begin{document}
+\linespread{1}\selectfont
+
+\noindent
+\begin{paracol}{2}
+
+%================= LEFT COLUMN =================
+
+\resumeHeading
+{NAKKA HEMANTH DATTA \href{https://frontend-virid-eight-30.vercel.app/}{\raisebox{0.1ex}{\scalebox{1.1}{\cmd}}}}
+{\textbf{Engineering Physics} \textbar\ \textbf{EP23B028}}
+{8.45}
+{https://github.com/hemanthdatta}
+{https://www.linkedin.com/in/hemanthdatta}
+{https://www.kaggle.com/nakkahemanthdatta}
+
+\resumeSection{\faGraduationCap}{Education}
+
+\resumeEducation
+{Indian Institute of Technology Madras}
+{\faMapMarker* Chennai, TN}
+{B. Tech - Engineering Physics}
+{\faCalendar* Jul '23 -- Jul '27}
+
+\resumeEducation
+{JNV, Pondicherry}
+{\faMapMarker* Pondicherry, PY}
+{Class XII (CBSE) \textbar\ 95.80\%}
+{\faCalendar* 2023}
+
+\resumeSection{\faBriefcase}{Professional Experience}
+
+\resumeExperience
+{Wells Fargo \hfill {\normalfont\small\faMapMarker* Bangalore, India}}
+{\textcolor{subheadingblue}{Tech Developer Intern \textbar\ AI Systems \& LLMOps}}
+{May '26 -- Jul '26}
+{
+\begin{resumeItemize}
+
+\item Developed \& benchmarked
+\textbf{LLM-as-a-Judge evaluation pipelines}
+for hallucination, truthfulness, \& response quality, using
+\textbf{judge-vs-gold calibration} to quantify evaluator reliability.
+
+\item Built
+\textbf{trace-based observability}
+across multi-step AI agent execution, analyzing
+\textbf{latency, token consumption, \& model input/output behavior}
+to diagnose performance \& behavioral degradation.
+
+\item Architected a
+\textbf{PDF document extraction pipeline}
+with \textbf{PyMuPDF}, automating document parsing,
+\textbf{JSON-to-SQL schema normalization},
+\& structured-data reconciliation.
+
+\item Built a
+\textbf{containerized FastAPI backend}
+for enterprise workflows, integrating structured data processing
+with production APIs \& scalable service components.
+
+\end{resumeItemize}
+}
+
+\resumeExperience
+{CV. OMSAI INFORMASI TEKNOLOGI \hfill {\normalfont\small\faMapMarker* Remote, Singapore}}
+{\textcolor{subheadingblue}{AI/ML Engineer (Contract)}}
+{Feb '26 -- May '26}
+{
+\begin{resumeItemize}
+
+\item Designed a
+\textbf{multimodal Corrective RAG (CRAG) pipeline}
+combining dense embeddings, BM25 retrieval, query rewriting,
+\& reranking with \textbf{LangGraph \& ChromaDB}.
+
+\item Developed a
+\textbf{table-aware retrieval architecture}
+using document-level summaries, row-level embeddings,
+\& raw-table injection, achieving
+\textbf{100\% table-query accuracy}
+across \textbf{250+ enterprise documents}.
+
+\item Applied
+\textbf{semantic chunking \& Ragas-based context precision/recall evaluation}
+to identify \& prune irrelevant retrievals, improving
+answer groundedness while reducing LLM inference latency.
+
+\item Reduced
+\textbf{prompt token consumption by 35\%}
+through retrieval-quality optimization \& context filtering,
+while building citation-level evaluation \& visualization
+for retrieval debugging.
+
+\end{resumeItemize}
+}
+
+\resumeSection{\faCode}{Technical Skills}
+
+\begin{resumeItemize}
+
+\item \textbf{Languages \& Data:}
+Python, C/C++, SQL, NumPy, pandas, MATLAB, Mathematica
+
+\item \textbf{Machine Learning:}
+PyTorch, TensorFlow, scikit-learn, Transformers,
+XGBoost, CatBoost, LightGBM, Optuna, OpenCV
+
+\item \textbf{ML Methods:}
+Classification, Feature Engineering, Hyperparameter Optimization,
+Parameter-Efficient Fine-Tuning, Generative Modeling
+
+\item \textbf{AI / Retrieval:}
+RAG/CRAG, FAISS, ChromaDB, LangGraph,
+PEFT (LoRA/BitFit), Ragas, LLM-as-a-Judge
+
+\item \textbf{Tools:}
+FastAPI, Docker, Kubernetes, Redis, Git
+
+\end{resumeItemize}
+
+\resumeSection{\faBook}{Relevant Coursework}
+
+\setlength{\multicolsep}{0pt}
+\begin{multicols}{2}
+\begin{resumeItemize}
+\item Intro to Machine Learning
+\item Introduction to Deep Learning
+\item Natural Language Processing
+\item Computer Vision
+\item Probability \& Statistics
+\item Data Structures \& Algorithms
+\item Database Management Systems
+\item Computational Physics
+\item Digital Signal Processing
+\item Linear Algebra
+\end{resumeItemize}
+\end{multicols}
+
+\resumeSection{\faTrophy}{Hackathons}
+
+\resumeProject
+{2nd Prize, Mando AI Tool Dev Hackathon 2025}
+{LangGraph \textbar\ Claude LLM \textbar\ FAISS \textbar\ Azure}
+{May '25 -- Jun '25}
+{
+\begin{resumeItemize}
+\item Engineered a full-stack document QA system supporting PDF, DOCX, \& CSV, using LangGraph, VoyageAI embeddings, Claude LLM, \& FAISS hybrid search across \textbf{2,000+ page documents}.
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta}{\faGithub}}
+
+\resumeDivider
+
+\resumeProject
+{Round 3 Finalist, Appian AIgnite Hackathon 2025}
+{CLIP \textbar\ Gemini API \textbar\ FAISS \textbar\ Azure}
+{Mar '25 -- Apr '25}
+{
+\begin{resumeItemize}
+\item Built a multimodal product discovery platform using CLIP+FAISS hybrid search across \textbf{14K+ products}, with a Gemini-powered AI browser extension for automated e-commerce checkout.
+\end{resumeItemize}
+}
+{\href{https://github.com/NikhilSwaroop-P/ByteStorm-Appian/tree/hemanth}{\faGithub}}
+
+\resumeSection{\faUserFriends}{Mentorship}
+
+\resumeExperience
+{Avanti Fellows \& EE Intern Buddy Program}
+{\textcolor{subheadingblue}{Student Mentor}}
+{Sep '23 -- Aug '26}
+{
+\begin{resumeItemize}
+\item Mentored underprivileged JEE aspirants by giving back as an Avanti Fellows alumnus \& guided junior EE students as Mentor.
+\end{resumeItemize}
+}
+
+\switchcolumn
+
+%================= RIGHT COLUMN =================
+
+\resumeSection{\faLightbulb}{Research \& Patents}
+
+\resumeProject
+{Gesturize: Edge Sign Language Translation System}
+{Indian Patent: 202541022908 \textbar\ CFI, IIT Madras}
+{Apr '24 -- Mar '25}
+{
+\begin{resumeItemize}
+
+\item Developed a real-time sign-language recognition pipeline for \textbf{Raspberry Pi}, transitioning from attention-based seq2seq to a \textbf{few-shot Siamese network} for low-resource inference.
+
+\item Extracted \textbf{MediaPipe hand-landmark features} with interpolation \& synthetic gesture augmentation, \& built an \textbf{English-to-ISL grammar transformation pipeline} (Stanford Parser, spaCy) to generate \textbf{synthetic training data}.
+
+\item Led annotation of a \textbf{60+ volunteer-collected open-source ISL dataset} at CFI, establishing a clean training corpus for downstream recognition models.
+
+\end{resumeItemize}
+}
+{}
+
+\resumeSection{\faLaptopCode}{Projects}
+
+%-------------------------------------------------
+% Foundation Model Adaptation
+%-------------------------------------------------
+
+\resumeProject
+{Foundational Model Adaptation Pipeline
+\href{https://hemanthdatta.github.io/tpa-17-blog/}{\small\faFile}}
+{Under Prof. Sukhendu Das \textbar\ CS6350, IIT Madras}
+{Jul '25 -- Dec '25}
+{
+\begin{resumeItemize}
+
+\item Evaluated
+\textbf{CLIP \& DINOv2}
+for fine-grained classification across
+\textbf{zero-shot, few-shot, \& PEFT}
+regimes.
+
+\item Implemented
+\textbf{LoRA, BitFit, Prefix Tuning},
+updating only \textbf{0.7\% of parameters}
+achieving \textbf{94.67\% classification accuracy}
+with DINOv2.
+
+\item Designed a
+\textbf{two-stage adaptation strategy}
+separating backbone feature extraction from classifier optimization
+for efficient model experimentation \& iteration.
+
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/tpa-17}{\faGithub}}
+
+\resumeDivider
+
+%-------------------------------------------------
+% Score Based Generative Models
+%-------------------------------------------------
+
+\resumeProject
+{Score-Based Generative Model Evaluation Framework
+\href{https://hemanthdatta.github.io/score-based-website/}{\small\faFile}}
+{Under Prof. Sheetal Kalyani \textbar\ EE5180, IIT Madras}
+{Jul '25 -- Dec '25}
+{
+\begin{resumeItemize}
+
+\item Implemented
+\textbf{DDPM, DDPM++, NCSN++}
+image-generation pipelines for CIFAR-10 across
+\textbf{VP, VE, \& Sub-VP SDE}
+formulations in PyTorch.
+
+\item Conducted controlled ablations across
+\textbf{12 architectures \& 200K training steps},
+evaluating generated image quality using
+\textbf{FID \& Inception Score}.
+
+\item Achieved
+\textbf{FID 10.52 / IS 7.37}
+with VP-DDPM++ and
+\textbf{FID 11.34 / IS 7.03}
+with VE-NCSN++, identifying
+\textbf{width-over-depth}
+as a key architectural trade-off.
+
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/intro-to-ml-project}{\faGithub}}
+
+\resumeDivider
+
+%-------------------------------------------------
+% Customer Churn
+%-------------------------------------------------
+
+\resumeProject
+{Customer Analytics \& Churn Prediction System}
+{Python \textbar\ XGBoost \textbar\ CatBoost \textbar\ Optuna}
+{Jan '25 -- May '25}
+{
+\begin{resumeItemize}
+
+\item Developed an end-to-end
+\textbf{customer churn prediction pipeline},
+benchmarking \textbf{Logistic Regression, XGBoost, CatBoost,
+\& LightGBM} to achieve \textbf{86\% accuracy \& 0.84 F1-score}.
+
+\item Engineered
+\textbf{60+ domain features}
+\& performed \textbf{100+ Optuna hyperparameter trials},
+improving model performance by \textbf{17\%}
+\& reducing \textbf{false positives by 23\%}.
+
+\end{resumeItemize}
+}
+{\href{https://github.com/NikhilSwaroop-P/ByteStorm-Appian/tree/hemanth}{\faGithub}}
+
+\resumeDivider
+
+%-------------------------------------------------
+% Time Series Forecasting
+%-------------------------------------------------
+
+\resumeProject
+{Time Series Forecasting -- Data Size Impact Study}
+{Python \textbar\ Scikit-learn \textbar\ TensorFlow \textbar\ KNN \textbar\ SVR \textbar\ LSTM}
+{Jan '25 -- May '25}
+{
+\begin{resumeItemize}
+
+\item Compared
+\textbf{KNN, SVR, \& LSTM}
+for \textbf{AAPL stock-price forecasting} across
+\textbf{100--1,174 training samples};
+found \textbf{LSTM dominance beyond ${\sim}1{,}000$ samples},
+reaching \textbf{0.00042 MSE / 0.01603 MAE}
+versus KNN's 0.00052 / 0.01768.
+
+\item Engineered a
+\textbf{leakage-aware time-series pipeline}
+with splitting, MinMax scaling,\textbf{10-day sliding windows}
+for next-day price prediction.
+
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/ml-project}{\faGithub}}
+
+\resumeDivider
+
+%-------------------------------------------------
+% Minivision
+%-------------------------------------------------
+
+\resumeProject
+{Multimodal Vision-Language Adaptor (``Minivision'')}
+{PyTorch \textbar\ Transformers \textbar\ 250M-parameter model}
+{Jan '26 -- May '26}
+{
+\begin{resumeItemize}
+
+\item Developed a
+\textbf{vision-language adaptor}
+aligning image embeddings with a text LLM, training a
+\textbf{250M-parameter multimodal model}
+on \textbf{25K+ curated image-text pairs},
+with a checkpoint benchmarking framework for
+\textbf{real-time visual QA evaluation}.
+
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/minivision}{\faGithub}}
+
+\resumeDivider
+
+\resumeProject
+{Distributed High-Performance N-Body Simulation Engine \href{https://hemanthdatta.github.io/comp-phy-proj/}{\small\faGlobe}}
+{Under Prof. Yasir Iqbal \textbar\ PH5730, IIT Madras}
+{Jan '26 -- May '26}
+{
+\begin{resumeItemize}
+
+\item Built a scalable N-body simulation pipeline using
+\textbf{NumPy vectorization, Barnes-Hut, multiprocessing,
+\& distributed execution},
+achieving \textbf{$\mathbf{\sim 78\times}$ speedup}
+over the naive baseline.
+
+\item Parallelized Barnes-Hut traversal across
+\textbf{8 workers} for an additional
+\textbf{$\mathbf{\sim 3\times}$ speedup}
+\& implemented checkpointed coordinator-worker execution with
+\textbf{$<0.1\%$ overhead}.
+
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/comp-phy-proj}{\faGithub}}
+
+\resumeSection{\faAward}{Scholastic Achievements}
+
+\begin{resumeItemize}
+
+\item CBSE Certificate of Merit for
+\textbf{top 0.1\% rank (100/100) in CS},
+Class XII Boards 2023 \& Reliance UG Scholarship.
+
+\item \textbf{AIR 5476} in JEE Advanced 2023
+(2.5L+ candidates) \& \textbf{Top 1.42\%}
+in JEE Mains 2023.
+
+\end{resumeItemize}
+
+\resumeSection{\faStar}{Extra-Curriculars}
+
+\begin{resumeItemize}
+\item NSO Volleyball \& state/national chess player
+\& EEA frisbee champions
+\end{resumeItemize}
+
+\end{paracol}
+
+\end{document}

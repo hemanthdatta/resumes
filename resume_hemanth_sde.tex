@@ -1,0 +1,218 @@
+\documentclass{resume}
+
+\begin{document}
+\linespread{1}\selectfont
+
+\noindent
+\begin{paracol}{2}
+
+%================= LEFT COLUMN =================
+
+\resumeHeading
+{NAKKA HEMANTH DATTA \href{https://frontend-virid-eight-30.vercel.app/}{\raisebox{0.1ex}{\scalebox{1.1}{\cmd}}}}
+{\textbf{Engineering Physics} \textbar\ \textbf{EP23B028}}
+{8.45}
+{https://github.com/hemanthdatta}
+{https://www.linkedin.com/in/hemanthdatta}
+{}
+
+\resumeSection{\faGraduationCap}{Education}
+
+\resumeEducation
+{Indian Institute of Technology Madras}
+{\faMapMarker*\ Chennai, TN}
+{B. Tech - Engineering Physics}
+{\faCalendar*\ Jul '23 -- Jul '27}
+
+\resumeEducation
+{JNV, Pondicherry}
+{\faMapMarker*\ Pondicherry, PY}
+{Class XII (CBSE) \textbar\ 95.80\%}
+{\faCalendar*\ 2023}
+
+\resumeSection{\faBriefcase}{Professional Experience}
+
+\resumeExperience
+{Wells Fargo \hfill {\normalfont\small\faMapMarker*\ Bangalore, India}}
+{\textcolor{subheadingblue}{Software Engineering Intern \textbar\ Full Stack \& AI Systems}}
+{May '26 - Jul '26}
+{
+\begin{resumeItemize}
+\item Deployed a containerized \textbf{3-service trade-processing stack} (\textbf{FastAPI, React, Redis}) on \textbf{Kubernetes} with HPA autoscaling \& liveness/readiness probes, raising throughput to \textbf{10,000+ trade confirmations/hour} \& replacing manual review workflows.
+
+\item Architected the underlying \textbf{extraction engine} using \textbf{Strategy Design Patterns, PyMuPDF, and Redis caching}, automating \textbf{JSON-to-SQL schema normalization} \& sub-second trade database reconciliation.
+
+\item Developed a \textbf{real-time React review workbench} featuring \textbf{SSE-based status streaming}, split-screen verification, embedded PDF inspection, \& \textbf{pagination} for rapid exception handling.
+
+\item Developed a \textbf{trade management system} using \textbf{Angular 16, ASP.NET Core 8, Dapper, \& SQL Server}, optimizing data access via batched SOR retrieval, in-memory caching, \& transactional status synchronization.
+
+\item Implemented \textbf{API error handling, structured logging, \& unit tests} across FastAPI services, covering validation failures, Redis/K8s outage paths, \& increasing test coverage for the trade-confirmation flow.
+\end{resumeItemize}
+}
+\resumeExperience
+{CV. OMSAI INFORMASI TEKNOLOGI \hfill {\normalfont\small\faMapMarker*\ Remote, Singapore}}
+{\textcolor{subheadingblue}{Software Engineer (Contract)}}
+{Feb '26 -- May '26}
+{
+\begin{resumeItemize}
+\item Partnered directly with an \textbf{Oman-based enterprise client} to build, iterate, \& deploy a production AI document intelligence system on a \textbf{cloud VM}, driving end-to-end solution delivery.
+
+\item Engineered \textbf{RESTful API integrations} \& a \textbf{multimodal Corrective RAG (CRAG)} pipeline using \textbf{LangGraph, OpenAI embeddings \& LLMs, ChromaDB (vector + BM25)}, \textbf{semantic chunking}, \& a \textbf{reranking engine} with query-rewrite/re-retrieval on low-confidence hits, achieving \textbf{100\% table query accuracy across a 250+ enterprise document benchmark}.
+
+\item Built a \textbf{React frontend} with \textbf{live citation highlighting} \& \textbf{lazy-loaded document rendering}, using \textbf{Ragas framework context metrics} to trim prompt token usage by \textbf{35\%}, lowering \textbf{API latency} \& reducing per-request cost.
+\end{resumeItemize}
+}
+\resumeSection{\faCode}{Technical Skills}
+
+\begin{resumeItemize}
+\item \textbf{Languages:} Python, C/C++, SQL, Matlab, Mathematica
+\item \textbf{Frameworks \& Libraries:} PyTorch, TensorFlow, scikit-learn, LangChain, LangGraph, Ragas, FAISS, ChromaDB, Unsloth, FastAPI, React, Angular 16, ASP.NET Core, Dapper, SQL Server, Docker, Kubernetes, Redis, Celery, Streamlit, pandas, Git
+\item \textbf{Core Skills:} DSA, Operating Systems, Distributed Systems, Concurrency \& Multithreading, SQL Indexing \& Query Optimization, Machine Learning, Deep Learning, NLP, Computer Vision, RAG, LLM Fine-Tuning (PEFT/LoRA), LLMOps \& Observability
+\end{resumeItemize}
+
+\resumeSection{\faBook}{Relevant Coursework}
+\setlength{\multicolsep}{0pt}
+\begin{multicols}{2}
+\begin{resumeItemize}
+\item Data Structures \& Algorithms
+\item Database Management Systems
+\item Probability \& Statistics
+\item Intro to Machine Learning
+\item Introduction to Deep Learning
+\item Computer Organisation
+\item Modern App Development
+\item Natural Language Processing
+\item Computer Vision
+\item Computational Physics
+\end{resumeItemize}
+\end{multicols}
+
+\resumeSection{\faUsers}{Position of Responsibility}
+
+\resumeExperience
+{CFI: Sahaay Social Innovation Club}
+{\textcolor{subheadingblue}{Project Member (Gesturize)}}
+{Apr '24 -- Mar '25}
+{
+\begin{resumeItemize}
+\item Co-invented an Indian Sign Language (ISL) translation system on low edge devices using \textbf{Siamese Networks, MediaPipe, \& interpolation} (\textbf{Patent App.~No: 202541022908}), leading 60+ \textbf{NSS IIT Madras} volunteers for open-source dataset contribution.
+\end{resumeItemize}
+}
+
+\resumeSection{\faUserFriends}{Mentorship}
+
+\resumeExperience
+{Avanti Fellows \& EE Intern Buddy Program}
+{\textcolor{subheadingblue}{Student Mentor}}
+{Sep '23 -- Aug '26}
+{
+\begin{resumeItemize}
+\item Mentored underprivileged JEE aspirants by giving back as an Avanti Fellows alumnus \& guided junior EE students as Mentor.
+\end{resumeItemize}
+}
+
+
+\switchcolumn
+
+%================= RIGHT COLUMN =================
+
+\resumeSection{\faLaptopCode}{Projects}
+
+\resumeProject
+{Distributed High-Performance N-Body Simulation Engine \href{https://hemanthdatta.github.io/comp-phy-proj/}{\small\faGlobe}}
+{Under Prof. Yasir Iqbal \textbar\ PH5730}
+{Jan '26 -- May '26}
+{
+\begin{resumeItemize}
+\item Engineered a \textbf{gravitational N-body simulator} in \textbf{C++20/Python} as a numerical-optimization ladder: naive $\mathcal{O}(N^2)$ pairwise forces $\rightarrow$ vectorized NumPy kernel $\rightarrow$ \textbf{Barnes-Hut} tree (\textbf{$\mathcal{O}(N \log N)$}) with opening-angle $\theta$ approximation (rel. error $< 10^{-12}$).
+\item Vectorized the force kernel for a \textbf{$\mathbf{\sim 78\times}$ speedup} over the naive loop ($N=256$) \& \textbf{parallelized Barnes-Hut tree traversal} across \textbf{8 multiprocessing workers} for a \textbf{$\mathbf{\sim 3.0\times}$} further speedup ($N=8192$), tuning $\theta$ against accuracy.
+\item Built a \textbf{socket-based coordinator/worker protocol} with \textbf{raw-byte synchronization} ($<0.1\%$ overhead) \& \textbf{fail-stop checkpoints}, benchmarking 6 scaling experiments across $N$, worker count, \& $\theta$ on compute/communication/accuracy tradeoffs.
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/comp-phy-proj}{\faGithub}}
+\resumeDivider
+
+\resumeProject
+{Distributed Key-Value Store}
+{C++ \textbar\ Distributed Systems \textbar\ CMake}
+{Jul '26 -- Aug '26}
+{
+\begin{resumeItemize}
+\item Designed \& implemented a \textbf{Redis-compatible distributed key-value store} in C++ with modular architecture comprising \textbf{Reactor-pattern networking layer}, \textbf{concurrent storage engine}, \textbf{durability subsystem}, \& \textbf{Raft-based consensus module}.
+\item Built a \textbf{Reactor-pattern TCP server} with \textbf{worker thread pool}, implementing thread-safe in-memory storage, \textbf{WAL durability with validation}, snapshot-based recovery, serializable transactions, \& \textbf{dual-layer TTL expiration} using a scheduler.
+\item Implemented \textbf{Raft consensus} with randomized leader election, heartbeat RPCs, \textbf{quorum-based replication}, \& follower catch-up; validated correctness using a \textbf{15-test CTest suite} \& a \textbf{benchmark client} measuring throughput \& latency under concurrent workloads.
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/distributed-kv-store}{\faGithub}}
+\resumeDivider
+
+\resumeProject
+{Colab Sync Control -- Open-Source Developer Tool \href{https://marketplace.visualstudio.com/items?itemName=crimson-blitz.colab-sync-vscode}{\small\faGlobe}}
+{VS Code Extension \textbar\ Node.js \textbar\ WebSockets \textbar\ Colab API}
+{Jul '26 -- Present}
+{
+\begin{resumeItemize}
+\item Built a VS Code extension enabling \textbf{bi-directional synchronization between local workspaces and remote Google Colab runtimes}, with automatic background syncing \& conflict monitoring.
+\item Architected a \textbf{local daemon--based control plane} for workspace linking, remote session lifecycle management, \& interactive shell access, integrating cloud compute into the native VS Code workflow.
+\item Developed a real-time dashboard for \textbf{CPU/RAM/disk/GPU telemetry \& compute-unit tracking}, supporting T4/L4/A100 GPU \& TPU runtimes.
+\item Published to the \textbf{VS Code Marketplace}, featuring \textbf{auto-reconnects, hash-based diffing}, \& encrypted WebSocket channel.
+\end{resumeItemize}
+}
+{\href{https://github.com/NikhilSwaroop-P/colab-sync-vscode}{\faGithub}}
+\resumeDivider
+
+\resumeProject
+{Foundational Model Adaptation Pipeline \href{https://hemanthdatta.github.io/tpa-17-blog/}{\small\faFile}}
+{Under Prof. Sukhendu Das \textbar\ CS6350}
+{Jul '25 -- Dec '25}
+{
+\begin{resumeItemize}
+\item Built a modular \textbf{model adaptation pipeline} for CLIP \& DINOv2 supporting zero-shot, few-shot, \& parameter-efficient fine-tuning workflows.
+\item Implemented \textbf{LoRA, BitFit, \& Prefix Tuning} \& optimized training to update only \textbf{0.7\% of model parameters}, achieving \textbf{94.67\% accuracy} with DINOv2.
+\item Designed a \textbf{two-stage training architecture} separating feature extraction \& classifier optimization, enabling efficient experimentation across model \& adaptation configurations.
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta/tpa-17}{\faGithub}}
+
+\resumeSection{\faTrophy}{Hackathons}
+
+\resumeProject
+{2nd Prize, Mando AI Tool Dev Hackathon 2025}
+{LangGraph \textbar\ Claude LLM \textbar\ FAISS \textbar\ Azure}
+{May '25 -- Jun '25}
+{
+\begin{resumeItemize}
+\item Engineered a full-stack document QA system supporting PDF, DOCX, \& CSV, using LangGraph, VoyageAI embeddings, Claude LLM, \& FAISS hybrid search across \textbf{2,000+ page documents}.
+\end{resumeItemize}
+}
+{\href{https://github.com/hemanthdatta}{\faGithub}}
+
+\resumeDivider
+
+\resumeProject
+{Round 3 Finalist, Appian AIgnite Hackathon 2025}
+{CLIP \textbar\ Gemini API \textbar\ FAISS \textbar\ Azure}
+{Mar '25 -- Apr '25}
+{
+\begin{resumeItemize}
+\item Built a multimodal product discovery platform using CLIP+FAISS hybrid search across \textbf{14K+ products}, with a Gemini-powered AI browser extension for automated e-commerce checkout.
+\end{resumeItemize}
+}
+{\href{https://github.com/NikhilSwaroop-P/ByteStorm-Appian/tree/hemanth}{\faGithub}}
+
+\resumeSection{\faAward}{Scholastic Achievements}
+
+\begin{resumeItemize}
+\item CBSE Certificate of Merit for top 0.1\% rank (100/100) in CS, Class XII Boards 2023 \& selected for Reliance UG Scholarship 
+\item AIR 5476 in JEE Advanced 2023 (out of 2.5L+ candidates) \& Top 1.42\% in JEE Mains 2023 out of 12L+ candidates
+\end{resumeItemize}
+
+\resumeSection{\faStar}{Extra-Curriculars}
+
+\begin{resumeItemize}
+\item NSO Volleyball \& state/national chess player \& EEA frisbee champions
+\end{resumeItemize}
+
+\end{paracol}
+
+\end{document}
